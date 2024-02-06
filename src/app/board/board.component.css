@@ -1,0 +1,60 @@
+/* table{
+padding-left: 11% !important;
+width: 50%;
+height: 50%;
+margin-left: auto;
+margin-right: auto;
+} */
+
+mat-card{
+  
+    margin: 20px 10px 10px 450px;
+    font-size: xxx-large;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    width: 350px;
+    height: 330px;
+}
+
+/* .card-content{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+} */
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 2em;
+  margin-bottom: 8px;
+}
+
+.row {
+  width:104px;
+  height: 320px;
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.button {
+  display: block;
+  margin-left: 45%;
+  margin-top: -15px;
+}
+

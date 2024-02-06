@@ -1,0 +1,23 @@
+input{
+    width:70% !important;
+}
+button{
+    width: 25%;
+    height: 25px;
+    margin-left: 10px;
+}
+.input-container{
+    display: inline-flex;
+}
+mat-card {
+    width : 300px !important;
+    height: 150px;
+    align-items: center;
+    margin-top: auto;
+    margin-left: 25% !important;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+.turns{
+    padding-bottom: 3%;
+}

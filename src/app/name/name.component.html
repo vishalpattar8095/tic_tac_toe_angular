@@ -1,0 +1,8 @@
+<mat-card>
+    <div class="turns">{{turn_name}}</div>
+    <div *ngIf="submitted"> {{name_show}}</div>
+    <form class="input-container" *ngIf="!submitted">
+        <input type="text" #name id="name" placeholder="Enter your name">
+        <button mat-raised-button color="primary" type="submit" (click)="showName(name.value)">Go</button>
+    </form>
+</mat-card>
